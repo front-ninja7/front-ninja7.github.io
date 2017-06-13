@@ -56,8 +56,9 @@ padding: 0;
 margin: 0; 
 }
 a {
+    margin-left: 10px;
     text-decoration: none;
     color: black;
-    font-size: 35px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }

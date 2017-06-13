@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=El+Messiri');
 a {
-    margin-left: 25px;
+    padding-left: 25px;
     text-decoration: none;
     color: black;
     font-size: 16px;

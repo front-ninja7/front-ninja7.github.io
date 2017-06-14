@@ -1,62 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-@import url('https://fonts.googleapis.com/css?family=El+Messiri');
-header{
-    width: 1427px;
-    height: 150px;
-    background-color: #5D80A6;
-    font-family: 'El Messiri', sans-serif;
+body{
+	background: #efefef url(images/geometry2.png);
+	margin: 0;
+	padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;
 }
-.ot{
-    padding-top: 20px;
-}
-.logorez{
-    padding-top: 50px;
-    font-family: 'El Messiri', sans-serif;
-    font-size: 45px;
-    display: inline-block;
-    text-align: center;
-    position: absolute;
-    margin-left: 20px; 
-}
-  
-    content{
-     font-family: 'El Messiri', sans-serif;
-    height: 100%;
-    width: 100%;
-    background-color: #EDEEF0;
-       display: block;
-       margin: 0 auto;
-       font-size: 35px;
-       text-align: center;
-        box-shadow: 0 3px 4px #6c92af;
-    }
-content > img {margin:0 auto; display:block; padding-top: 35px; padding-bottom: 35px;}
-.figure_block { 
-width: 100%; 
-background-color: #fff; 
-} 
 
-#figure_block_top { 
-width: 300px; 
-height: 354px; 
-background-color: #D0D0D0;  
-padding: 100px; 
-float: left;
-margin-left: 110px;
-margin-top: 20px;
-    box-shadow: 0 3px 4px #6c92af;
-} 
+/*Структура сайта*/
+div.header{
+background: #101417;
 
-#figure_block_top img { 
-width: 300px; 
-background-color: #D0D0D0;  
-padding: 0; 
-margin: 0; 
+}
+div.mid{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*Шапка сайта*/
+div.topmenu{
+	float: right;	
+	height: 70px;
+	line-height: 70px;
+}
+div.topmenu a {
+	margin: 0 0 0 15px;
+  color: #1683a3;
 }
 a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+div.topmenu a:hover{
+color: white;	
+}
+div.afisha{
+padding: 20px 50px 0px 50px;
+background: #f2f2f2 url(images/headline.png) top repeat-xtt;
+}
+div.afisha img {
+	float: left;
+}
+div.clear {
+	clear: both;
 }

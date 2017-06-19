@@ -53,6 +53,7 @@ background-color: #6495ed;
 font-size: 35px;
 height: 150px;
 text-align: center;
+line-height: 150px;
 }
 .footer > p{
 	text-align: center;

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 header{
+padding-bottom: 50px;
 display: inline-block;
 padding-left: 50px;
 padding-top: 60px;
@@ -11,7 +12,7 @@ border-radius: 5px;
 font-family: 'Bubbler One', sans-serif;
 }
 .content{
-height: 100%;
+height: 800px;
 width: 100%;
 background-image: url(images/01.jpg);
 background-repeat: no-repeat;
@@ -26,7 +27,7 @@ margin: 0 auto;	5
 a{
 	text-decoration: none;
 	color: black;
-
+  
 }
 header > ul > li  {
 display: inline-block;
@@ -53,7 +54,6 @@ background-color: #6495ed;
 font-size: 35px;
 height: 150px;
 text-align: center;
-line-height: 150px;
 }
 .footer > p{
 	text-align: center;

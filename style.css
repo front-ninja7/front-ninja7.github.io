@@ -11,7 +11,7 @@ border-radius: 5px;
 font-family: 'Bubbler One', sans-serif;
 }
 .content{
-height: 80%;
+height: 100%;
 width: 100%;
 background-image: url(images/01.jpg);
 background-repeat: no-repeat;
@@ -47,4 +47,13 @@ padding-top: 20px;
 font-size: 45px;
 text-align: center;
 padding-top: 35px;
+}
+.footer{
+background-color: #6495ed;
+font-size: 35px;
+height: 150px;
+text-align: center;
+}
+.footer > p{
+	text-align: center;
 }

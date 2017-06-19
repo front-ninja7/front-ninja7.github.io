@@ -1,42 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+header{
+display: inline-block;
+padding-left: 50px;
+padding-top: 60px;
+width: 1400px;
+height: 75px;
+background-image: url(images/05.jpg);
+margin-bottom: 5px;
+border-radius: 5px;
+font-family: 'Bubbler One', sans-serif;
+}
+.content{
+height: 800px;
+width: 1400px;
+background-image: url(images/01.jpg);
+background-repeat: no-repeat;
+font-family: 'Bubbler One', sans-serif;
+}
 body{
-	background: #efefef url(images/geometry2.png);
-	margin: 0;
-	padding: 0;
-	font: 16px/24px Arial, Tahoma, sans-serif;
+font-family: 'Bubbler One', sans-serif;
+font-weight: bold;
+font-size: 24px;
+margin: 0 auto;	5
 }
+a{
+	text-decoration: none;
+	color: black;
 
-/*Структура сайта*/
-div.header{
-background: #101417;
+}
+header > ul > li  {
+display: inline-block;
+}
+header > ul > li>a {
+display: inline-block;
+padding-left: 80px;
+}
+d2{
+font-size: 35px;
+}
+.image{
+padding-left: 400px;
+padding-top: 20px;
 
 }
-div.mid{
-	width: 1000px;
-	margin: 0 auto;
-}
-/*Шапка сайта*/
-div.topmenu{
-	float: right;	
-	height: 70px;
-	line-height: 70px;
-}
-div.topmenu a {
-	margin: 0 0 0 15px;
-  color: #1683a3;
-}
-a {
-text-decoration: none;
-}
-div.topmenu a:hover{
-color: white;	
-}
-div.afisha{
-padding: 20px 50px 0px 50px;
-background: #f2f2f2 url(images/headline.png) top repeat-xtt;
-}
-div.afisha img {
-	float: left;
-}
-div.clear {
-	clear: both;
+.for{
+font-size: 45px;
+text-align: center;
+padding-top: 35px;
 }
